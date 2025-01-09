@@ -13,7 +13,7 @@ module.exports = {
   "PRESENCE": process.env.PRESENCE || "online",
   "OMDB_API_KEY": process.env.OMDB_API_KEY || "76cb7f39",
   "READ_CMD": process.env.READ_CMD === 'true',
-  "AUTO_VOICE": process.env.AUTO_VOICE === 'true',
+  "AUTO_VOICE": process.env.idAUTO_VOICE === 'true',
   "AUTO_STICKER": process.env.AUTO_STICKER === 'true',
   "AUTO_REPLY": process.env.AUTO_REPLY === 'true',
   "AUTO_REACT": process.env.AUTO_REACT === 'true',
